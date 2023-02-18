@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Mind Map Diagram
 description: MDX post illustrating the use of Markmap component to generate mind map diagrams.
 author: Chris Tham
@@ -12,7 +13,7 @@ tags:
   - markmap
   - diagram
   - mindmap
----  
+---
 
 ## Mindmap
 

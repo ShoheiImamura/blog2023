@@ -1,4 +1,5 @@
 ---
+draft: true
 title: MIT Licence
 description: The MIT License, explained.
 author: Chris Tham
@@ -10,7 +11,7 @@ categories:
 tags:
   - mit
   - licence
----  
+---
 ## Introduction
 
 According to [Wikipedia](https://en.wikipedia.org/wiki/MIT_License):

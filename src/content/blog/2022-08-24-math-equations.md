@@ -1,4 +1,5 @@
 ---
+draft: true
 title: Math Equations
 description: Display math equations in blog posts!
 author: Chris Tham
