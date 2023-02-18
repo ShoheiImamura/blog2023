@@ -144,7 +144,9 @@ rectangle ワークアウト関連 {
   card 平均心拍数
   card 最大心拍数
   card ペース
+  card ペース表
   card 平均ペース
+  card 目標ペース
   card 消費カロリー
   card "高低差（上り）" as 高低差上り
   card "高低差（下り）" as 高低差下り
@@ -226,16 +228,52 @@ rectangle メッセージ関連  {
   メッセージ -- メッセージの日時
 }
 
-card アクティビティ
-card 最近のアクティビティ
-card トロフィー
-card すべてのトロフィー
-card 最近獲得したトロフィー
-card ランレベル
-card チャレンジ
-card 個人記録
-card 今月の走行距離
-card 連続記録
+rectangle プラン関連 {
+  card プラン
+  card レベル
+  card コース
+  card プランの概要
+  card プラン頻度
+  card ベース
+  card おすすめ
+  card ランナー歴
+  card プランの概要
+  card コーチ
+  card コーチのプロフィール
+  card メニュー
+  card 今週のメニュー
+  card 今週のヒント
+  card 完了したワークアウト
+  card 残り期間
+  card トレーニングプランに関するFAQ
+  card プログラムを終了する理由
+
+  プラン -- プランの概要
+  プラン -- メニュー
+  メニュー -- 今週のメニュー
+  プラン -- 完了したワークアウト
+
+  ' 外部関連
+  メニュー -- ワークアウト
+}
+
+rectangle アクティビティ関連 {
+  card アクティビティ
+  card 最近のアクティビティ
+
+  card トロフィー
+  card すべてのトロフィー
+  card 最近獲得したトロフィー
+
+  トロフィー -- すべてのトロフィー
+  トロフィー -- 最近獲得したトロフィー
+
+  card ランレベル
+  card チャレンジ
+  card 個人記録
+  card 今月の走行距離
+  card 連続記録
+}
 
 card シェア
 card コミュニティアクティビティ
@@ -336,6 +374,7 @@ rectangle NikeRunClub {
 }
 
 ' 外部システム
+component AppleWatch
 component Nikeアプリ
 component Nikeメンバーショップ
 component AppleMusic
@@ -344,6 +383,7 @@ component Spotify
 ' 関係
 ランナー -- NikeRunClubアプリ
 
+NikeRunClubアプリ -- AppleWatch
 NikeRunClubアプリ -- Nikeアプリ
 NikeRunClubアプリ -- Nikeメンバーショップ
 NikeRunClubアプリ -- AppleMusic
