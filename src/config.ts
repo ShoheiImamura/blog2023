@@ -33,38 +33,13 @@ export const SiteMetadata = {
   social: [
     {
       name: 'Email',
-      link: 'mailto:info@hellothamcom',
+      link: 's3imamura@gmail.com',
       icon: 'envelope',
     },
     {
-      name: 'Phone',
-      link: '555-5555',
-      icon: 'telephone',
-    },
-    {
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/hellothamcom',
-      icon: 'linkedin',
-    },
-    {
-      name: 'Facebook',
-      link: 'https://www.facebook.com/hellothamcom',
-      icon: 'facebook',
-    },
-    {
-      name: 'Instagram',
-      link: 'https://www.instagram.com/hellothamcom',
-      icon: 'instagram',
-    },
-    {
       name: 'Twitter',
-      link: 'https://twitter.com/hellothamcom',
+      link: 'https://twitter.com/sho45122498',
       icon: 'twitter',
-    },
-    {
-      name: 'Github',
-      link: 'https://github.com/hellothamcom',
-      icon: 'github',
     },
   ],
   buildTime: new Date(),

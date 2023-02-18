@@ -1,7 +1,6 @@
 ---
 import { Icon } from 'astro-icon'
 import Base from '../layouts/base.astro'
-import Map from '../components/map.astro'
 import PageHero from '../components/pagehero.astro'
 import { SiteMetadata } from '../config'
 
@@ -31,9 +30,7 @@ const frontmatter = {
           <div
             class="grow-0 shrink-0 basis-auto block w-full lg:flex lg:w-6/12 xl:w-4/12"
           >
-            <div class="w-full">
-              <Map loc={SiteMetadata.latlng} zoom={11} />
-            </div>
+            <div class="w-full"></div>
           </div>
           <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
             <div class="flex flex-wrap pt-8 lg:pt-0">
