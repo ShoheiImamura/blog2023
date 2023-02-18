@@ -10,25 +10,25 @@ export interface TagType {
 }
 
 export const SiteMetadata = {
-  title: 'Hello Astro',
-  description: 'An Astro starter for corporate/marketing/blog websites.',
+  title: 'ima blog',
+  description: '個人blog',
   author: {
-    name: 'Chris Tham',
-    twitter: '@chris1tham',
-    url: 'https://christham.net',
-    email: 'chris@christham.net',
-    summary: 'Outrageous actualiser.',
+    name: 'IMAMURA Shohei',
+    twitter: '',
+    url: 'https://ima-blog.netlify.app/',
+    email: '',
+    summary: '個人blog',
   },
   org: {
-    name: 'Hello Tham',
-    twitter: '@hellothamcom',
-    url: 'https://hellotham.com',
-    email: 'info@hellotham.com',
+    name: '',
+    twitter: '',
+    url: '',
+    email: '',
     summary:
-      'Hello Tham is a boutique management consulting firm. We specialise in Business and IT strategies, operating models, strategic roadmaps, enterprise architecture, analytics and business process design.',
+      '',
   },
-  location: 'Rivendell, Middle Earth',
-  latlng: [-33.86785, 151.20732] as [number, number],
+  location: 'Tokyo, Japan',
+  latlng: [35.630, 139.647] as [number, number],
   repository: 'https://github.com/hellotham/hello-astro',
   social: [
     {
@@ -89,18 +89,18 @@ export function categoryDetail(category: string | undefined) {
 }
 export const AuthorDetail = [
   {
-    name: 'Chris Tham',
-    description: 'Hello World',
-    contact: 'chris@christham.net',
+    name: ' ',
+    description: ' ',
+    contact: ' ',
     image: '../images/authors/Chris Tham.jpg'
   }
 ]
 
 export const DefaultAuthor = {
-  name: 'Hello Astro',
+  name: 'IMAMURA Shohei',
   image: '../images/authors/default.png',
-  contact: 'info@hellotham.com',
-  description: 'Astronaut'
+  contact: '',
+  description: 'ima blog'
 }
 
 export function authorDetail(author: string | undefined) {
@@ -114,9 +114,9 @@ export function authorDetail(author: string | undefined) {
 
 export const PAGE_SIZE = 6
 
-export const GITHUB_EDIT_URL = `https://github.com/hellotham/hello-astro`
+export const GITHUB_EDIT_URL = ` `
 
-export const COMMUNITY_INVITE_URL = `https://astro.build/chat`
+export const COMMUNITY_INVITE_URL = ` `
 
 export type Sidebar = Record<string, { text: string; link: string }[]>
 
