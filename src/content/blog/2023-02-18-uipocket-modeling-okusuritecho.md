@@ -42,7 +42,7 @@ right footer s.imamura
 ' mainframe mainframe
 title 用語集／用語関連図
 ' left to right direction
-scale max 2048 width
+' scale max 2048 width
 
 ' === スタイル ===
 skinparam {
