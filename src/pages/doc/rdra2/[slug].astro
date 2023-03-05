@@ -9,6 +9,7 @@ export async function getStaticPaths() {
   const filtered = docEntries.filter(entry => {
     return entry.slug.startsWith('rdra2')
   })
+
   return filtered.map(entry => ({
     params: { slug: entry.slug.replace('rdra2/', '') },
     props: { entry },
