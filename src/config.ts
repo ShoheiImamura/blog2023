@@ -121,10 +121,15 @@ export const COMMUNITY_INVITE_URL = ` `
 export type Sidebar = Record<string, { text: string; link: string }[]>
 
 export const SIDEBAR: Sidebar = {
-  'Section Header': [
-    { text: 'Introduction', link: 'doc/introduction' },
-    { text: 'Page 2', link: 'doc/page-2' },
-    { text: 'Page 3', link: 'doc/page-3' },
+  'RDRA2.0': [
+    { text: 'RDRA2.0', link: 'doc/rdra2' },
+    { text: 'システムコンテキスト図', link: 'doc/rdra2/system-context' },
+    { text: '要求モデル図', link: 'doc/rdra2/requirement-model' },
+    { text: 'ビジネスコンテキスト図', link: 'doc/rdra2/business-context' },
+    { text: 'ビジネスユースケース', link: 'doc/rdra2/business-usecase' },
+    { text: '業務フロー図', link: 'doc/rdra2/business-flow' },
+    { text: 'ユースケース複合図', link: 'doc/rdra2/usecase-complex' },
+    { text: '情報モデル', link: 'doc/rdra2/information-model' },
+    { text: '状態モデル', link: 'doc/rdra2/status-model' },
   ],
-  'Another Section': [{ text: 'Page 4', link: 'doc/page-4' }],
 }
